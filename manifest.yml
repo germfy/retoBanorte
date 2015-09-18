@@ -1,0 +1,12 @@
+# this manifest deploys the SQLDBNode Node.js Sample application
+applications:
+# replace the service name below with your own unique one, as this one is already taken
+- name: ServiciosRetoBanorte
+  host: ServiciosRetoBanorte
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  command: node server.js
+  path: .
+  services:
+  - SQL Database-ls

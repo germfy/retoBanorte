@@ -1,0 +1,22 @@
+{
+  "name": "registroreto",
+  "version": "1.0.0",
+  "description": "Servicios para Reto Banorta",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "retobanorte"
+  ],
+  "author": "German Dominguez",
+  "license": "ISC",
+  "engines":{
+    "node":"0.8.4",
+    "npm":"1.1.49"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "ibm_db" : ">=0.0.1"
+  }
+}
