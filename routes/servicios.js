@@ -109,4 +109,7 @@ router.get('/consultaSaldo', funcion(req, res){
   });
 });
 
+router.get('/calificacionBuroCredito', function(req, res){
+  res.send(Math.random()*(6-1) + 1);
+})
 module.exports = router;

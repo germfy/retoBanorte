@@ -1,7 +1,7 @@
 {
   "name": "registroreto",
   "version": "1.0.0",
-  "description": "Servicios para Reto Banorta",
+  "description": "Servicios para Reto Hackathon Banca",
   "main": "server.js",
   "scripts": {
     "test": "test"
@@ -12,8 +12,7 @@
   "author": "German Dominguez",
   "license": "ISC",
   "engines":{
-    "node":"0.8.4",
-    "npm":"1.1.49"
+    "node":"*"
   },
   "dependencies": {
     "express": "^4.13.3",
